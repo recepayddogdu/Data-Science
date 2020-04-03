@@ -1,6 +1,7 @@
 --insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Recep Aydoðdu','Ýstanbul','Gaziosmanpasa','1999-11-13','E')
 --yeni columns eklemek icin insert kullanilir
 
+/*
 insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Volkan ÇEKÝP','Bartýn','Kurucaþile','1997-10-24 00:00:00.000','E')
 insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Serhat GÜNDOÐAN','Rize','Pazar / Rize','1966-02-03 00:00:00.000','E')
 insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Irmak TAHSÝNOÐLU','Erzincan','Çayýrlý','1940-06-23 00:00:00.000','K')
@@ -1001,5 +1002,5 @@ insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Gülh
 insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Musa ALGUR','Þanlýurfa','Harran','1988-04-14 00:00:00.000','E')
 insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Gülþah ÞAHÝNLÝ','Aydýn','Sultanhisar','1983-10-09 00:00:00.000','K')
 insert into CUSTOMER (CUSTOMERNAME,CITY,DISTRICT,BIRTHDATE,GENDER) values ('Veysel ELDEM','Mersin','Toroslar','1960-07-29 00:00:00.000','E')
-
+*/
 
