@@ -8,13 +8,13 @@
 # =============================================================================
 # Set olusturma
 
-s = set()
+s = set() 
 s
 
 l= ["ali","ata","bakma","ali","uzaya","git"]
 
 s=set(l) # l listesindeki elemanlari birer kez alir.
-s
+s #set'in elemanlari essiz olacaginden her eleman bir kez alinir.
 
 ali="ali_ata_bakma_uzaya_git_lutfen"
 
@@ -40,7 +40,7 @@ s
 s.remove(ali) # ali elemanini sildi.
 s
 
-s.remove(ali) # ali'yi tekrar silmek sitedigimizde hata verir.
+s.remove(ali) # ali'yi tekrar silmek istedigimizde KeyError hatası verir.
 
 s.discard(t) # discard ile de silme islemi gerceklestirebiliriz
 s
@@ -84,6 +84,6 @@ set1.issubset(set2) #set1 set2'nin subset'i mi?
 
 #issuperset
 
-set2.issuperset(set1) #set2 set1'in superset'i mi? Kapsar mı?
+set2.issuperset(set1) #set2 set1'in superset'i mi? Kapsar mi?
 
 
