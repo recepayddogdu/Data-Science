@@ -1,4 +1,4 @@
-#Veri Yapilari - Sets (Kümeler)
+#Veri Yapilari - Sets (Kumeler)
 
 # =============================================================================
 # #1-) Sirasizdir

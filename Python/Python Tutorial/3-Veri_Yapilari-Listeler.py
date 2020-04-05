@@ -2,22 +2,23 @@
 
 ###LISTELER
 
-notlar = [90,80,70,50]
-type(notlar)
+notlar = [90,80,70,50] #liste olusturma
+type(notlar) #--> list
 
-liste=["a",19.5,3]
+liste=["a",19.5,3] #farkli tipleri barindiran liste
 
 liste_genis=["a",19.5,3,notlar] #kapsayicidir. icersinde farkli veri tipleri hatta liste bile barindirabilir.
 len(liste_genis) #boyutu 4 olur.
 
+
+#liste elamanlarina ulasma
+
+liste_genis[0] #-->"a"
+liste_genis[1] #-->19.5
+liste_genis[2] #-->3
+liste_genis[3] #-->[90,80,70,50]
+
 #liste ici type sorgulama
-
-liste_genis[0]
-liste_genis[1]
-liste_genis[2]
-liste_genis[3]
-
-
 
 type(liste_genis[0])
 type(liste_genis[1])
@@ -42,8 +43,9 @@ liste_genis[2:] # 2 indexli elemandan sona kadar alir
 liste_genis
 
 liste_genis[3][1] # liste_genis icersindeki notlar listesinin 1 indexli elemani
+# --> 80
 
-print(liste_genis[3][0])
+print(liste_genis[3][0]) #--> 90
 
 # Liste elemanlarini degistirme
 

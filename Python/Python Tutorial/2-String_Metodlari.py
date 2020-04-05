@@ -10,7 +10,7 @@ b=10
 
 type(a/b) # a/b=9.9 olacagindan tipi float olur.
 
-len(gel_yaz) # mvk degiskeninin icersindeki string'in krktr uzunlugunu verir.
+len(gel_yaz) # gel_yaz degiskeninin icersindeki string'in krktr uzunlugunu verir.
 
 ########################################################################
 
@@ -62,16 +62,16 @@ gel_yaz[0:3] # 0'dan basla 3'e kadar getir.
 
 #TYPE DONUSUMLERİ
 
-toplama_bir=input()
-toplama_iki=input()
+toplama_bir=input() #input ile kullanıcıdan veri alırız.
+toplama_iki=input() #kullanıcıdan aldıgımız veri str tipindedir.
 
-toplama_bir+toplama_iki
-
+toplama_bir+toplama_iki # 10+20 --> '1020' çıktısı verir.
+						# bunu engellemek için type dönüşümü yapmalıyız.
 int(toplama_bir)+int(toplama_iki) #tip donusumlerini bu sekilde yapariz.
 
-int(12.4)
-float(12)
-str(12)
+int(12.4) #float to int --> 12
+float(12) #int to float --> 12.0
+str(12)   #int to str   --> '12'
 
 #Print fonksiyonu
 
@@ -79,7 +79,7 @@ print("gelecegi","yazanlar")
 
 print("gelecegi","yazanlar",sep = "_") #sep argumani araya gelecek degeri secmemize olanak saglar.
 
-?print
+?print #print fonksiyonu ile kullanabilecegimiz argumanlari verir.
 
 
 

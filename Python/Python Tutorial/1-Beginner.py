@@ -1,9 +1,9 @@
 print("Hello AI Era")
 
 #type komutu icerisine yazdigimiz nesnenin tipini verir.
-type(9)
-type(9.2)
-type("Recep Aydoğdu")
+type(9) #integer
+type(9.2) #float
+type("Recep Aydoğdu") #string
 
 ###################
 
