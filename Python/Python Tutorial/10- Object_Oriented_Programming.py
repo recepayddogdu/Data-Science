@@ -63,23 +63,53 @@ ali.bolum #istatistik
 
 # Ornek Metodlari
 
+class VeriBilimci(): #Bir class tanimladik.
+    calisanlar = [] # calisanlar adinda bir nesne
+    def __init__(self): #orneklerin ozellikleri
+        self.bildigi_diller = [] #orneklerin ozellikleri
+        self.bolum = '' #orneklerin ozellikleri
+    def dil_ekle(self, yeni_dil): #orneklere etki edecek bir fonksiyon yazdik
+        self.bildigi_diller.append(yeni_dil)
+        
+ali = VeriBilimci()
+ali.bildigi_diller #suan bos
+ali.bolum
+
+veli = VeriBilimci()
+veli.bildigi_diller
+veli.bolum
+
+ali.dil_ekle("R") #dil_ekle fonksiyonunu calistirdik.
+
+VeriBilimci.dil_ekle(ali,"Python") #dil_ekle fonksiyonunu calistirdik.
+                    #ali'nin bildigi dillere python eklendi.
+                    #dil_ekle fonksiyonu iki sekilde de calistirilabilir.
+
+ali.bildigi_diller #Python ve R var.
+
+# Miras Yapilari (inheritance)
+
+class Employees(): 
+    def __init__(self,FirstName, LastName, Address):#Ozellikleri fonksiyonel. Sabit degil.
+        self.FirstName = FirstName
+        self.LastName = LastName
+        self.Address = Address
 
 
+class DataScience(Employees):  #Employees'den miras aliyor.
+    def __init__(self,Programming):#Ozellikleri fonksiyonel. Sabit degil.
+        self.Programming = Programming
+        
+class Marketing(Employees):   #Employees'den miras aliyor.
+    def __init__(self,StoryTelling):#Ozellikleri fonksiyonel. Sabit degil.
+        self.StoryTelling = StoryTelling
 
+veribilimci1 = DataScience() #Parametreyi bos birakamayiz. Hata verir.
+veribilimci1 = DataScience("Python")
+veribilimci1.Programming #Python
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+pazarlamaci = Marketing("Yes")
+pazarlamaci.StoryTelling #Yes
 
 
 
