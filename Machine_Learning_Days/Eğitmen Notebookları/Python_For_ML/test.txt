@@ -1,7 +1,0 @@
-Deneme0
-Deneme1
-Deneme2
-Deneme3 f.write() kullanarakDeneme1
-Deneme2
-Deneme3 f.write() kullanarakDeneme1
-Deneme2
