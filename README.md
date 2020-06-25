@@ -1,2 +1,2 @@
 # Data-Science
-## Çalışma notlarım Documents klasörü içerisinde.
+## Çalışma notlarıma Documents klasörü içerisinden ulaşabilirsiniz.
