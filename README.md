@@ -1,3 +1,3 @@
 # Data-Science
-### Data Science alanında kendimi geliştirmek için çalıştığım tüm kaynakları sizinle paylaşıyorum.
+### Data Science alanında kendimi geliştirmek için çalıştığım kaynaklardan bazılarını burada depoluyorum.
 ### Çalışma notlarıma Documents klasörü içerisinden ulaşabilirsiniz.
