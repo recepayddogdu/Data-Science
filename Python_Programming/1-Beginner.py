@@ -15,7 +15,7 @@ type("123") #bunun da ciktisi str olacaktir.
 
 "a"*3
 
-"a"/3 #type error hatasi
+#"a"/3 #type error hatasi
 
 "a "*5
 
