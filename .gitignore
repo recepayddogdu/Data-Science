@@ -1,5 +1,5 @@
 *.mkv
 *.mp4
-env_ds
+ds-venv
 Notes/Data_Science.docx
 Notes/Data_Science.odt
