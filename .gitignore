@@ -1,7 +1,6 @@
 *.mkv
 *.mp4
 ds-venv
-Notes/Data_Science.docx
-Notes/Data_Science.odt
+
 .vscode/settings.json
 Data_Preprocessing/.ipynb_checkpoints
