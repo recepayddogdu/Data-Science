@@ -86,8 +86,7 @@ You can access the complete code in the [preprocess.py](src/preprocess.py) file.
 
 ### Model
 
-![u-net](https://developers.arcgis.com/assets/img/python-graphics/unet.png)
-
+<img src="https://developers.arcgis.com/assets/img/python-graphics/unet.png" width="500">
 
 We used the U-Net model in this project. Because it is seen that U-Net model is used in many autonomous vehicle projects while searching for the best model for semantic segmentation.
 Semantic segmentation, also known as pixel-based classification, is an important task in which we classify each pixel of an image as belonging to a particular class.
@@ -101,7 +100,7 @@ The ability of U-net to work with very little data and no specific requirement o
 	    self.maxpool = nn.MaxPool2d(2)
 
 	 
-	 ![maxpool_gif](https://developers.google.com/machine-learning/practica/image-classification/images/maxpool_animation.gif =500x)
+	 ![maxpool_gif](https://developers.google.com/machine-learning/practica/image-classification/images/maxpool_animation.gif)
 
 
  - The decoder is the second half of the architecture. The goal is to semantically project the discriminative features (lower resolution) learnt by the encoder onto the pixel space (higher resolution) to get a dense classification. The decoder consists of **upsampling** and **concatenation** followed by regular convolution operations.
@@ -123,7 +122,7 @@ Relu was used as the activation function.
  - A neural network without the activation function will act like a linear regression with limited learning power. Relu is chosen if your network is very deep and your processing load is a major problem
 
 	    nn.ReLU(inplace=True)
-![relu](https://miro.medium.com/max/1026/0*g9ypL5M3k-f7EW85.png =500x)
+![relu](https://miro.medium.com/max/1026/0*g9ypL5M3k-f7EW85.png)
 
 
 #### Batch Normalization
@@ -248,7 +247,7 @@ The model gave good results in bright and normal way, but the accuracy was low i
 ![tunnel](https://i.hizliresim.com/6IXczk.jpg)
 
 
-Data augmentation has been done to prevent this situation.
+Data Augmentation was implemented to prevent this situation.
 
 ### Data Augmentation
 
@@ -286,10 +285,11 @@ The model was retrained with the duplicated train data set. New loss values and 
 
 There is a good improvement in the results obtained after data augmentation;
 
-![old_new](https://i.hizliresim.com/yEyKf2.jpg =350x)
+<img src="https://i.hizliresim.com/yEyKf2.jpg" width="350">
 
 
-![new2](https://i.hizliresim.com/g6Rw4p.jpg =350x)
+<img src="https://i.hizliresim.com/g6Rw4p.jpg" width="350">
+
 
 
 ![new3](https://i.hizliresim.com/IVxphu.jpg)
